@@ -23,7 +23,7 @@ class CourseDetailActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         recyclerView_main.layoutManager = LinearLayoutManager(this)
-//        recyclerView_main.adapter = CourseDetailAdapter()
+// /       recyclerView_main.adapter = CourseDetailAdapter()
 
         // we'll change the nav bar title..
         val navBarTitle = intent.getStringExtra(CustomViewHolder.VIDEO_TITLE_KEY)
